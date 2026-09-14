@@ -1,0 +1,14 @@
+# Python dependencies.
+#
+# SUMO itself is NOT installed through pip. Install it separately and set
+# SUMO_HOME before running anything. See the README for platform instructions.
+
+gymnasium>=0.29
+numpy>=1.24
+torch>=2.0
+matplotlib>=3.7
+
+# TraCI is the Python interface to SUMO. It also ships inside $SUMO_HOME/tools,
+# so if you would rather use the copy that came with your SUMO install, drop the
+# line below and put $SUMO_HOME/tools on your PYTHONPATH instead.
+traci>=1.18
